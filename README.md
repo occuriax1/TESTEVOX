@@ -40,7 +40,7 @@ composer install
 4.Configure a conexão com o banco de dados editando o arquivo .env ou configurando as variáveis de ambiente do seu servidor.
 
 5.Execute as migrações para criar a estrutura do banco de dados:
-php bin/console doctrine:migrations:migrate
+Primeiro  use php bin/console make:migration (criar a migração) depois php bin/console doctrine:migrations:migrate(para executar)
 
 Iniciar o Servidor de Desenvolvimento
 Após a configuração, você pode iniciar o servidor de desenvolvimento usando o Symfony CLI:
